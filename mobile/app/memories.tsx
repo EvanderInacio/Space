@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 
-export function Memories() {
+export default function Memories() {
   return (
     <View className='flex-1 justify-center items-center'>
       <Text>Memories</Text>

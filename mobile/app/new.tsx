@@ -7,7 +7,7 @@ import {
   View,
   Image,
 } from 'react-native'
-import NLWLogo from '../src/assets/nlw-logo.svg'
+import NLWLogo from '../src/assets/logo.svg'
 import { Link, useRouter } from 'expo-router'
 import Icon from '@expo/vector-icons/Feather'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
@@ -61,8 +61,6 @@ export default function NewMemory() {
       })
 
       coverUrl = uploadResponse.data.fileUrl
-
-      console.log(coverUrl)
     }
 
     await api.post(
